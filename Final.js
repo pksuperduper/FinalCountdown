@@ -2,9 +2,6 @@
  * 
  */
 
-/**
- * 
- */
 
 const max_fireworks = 50, max_sparks = 50;
 let canvas = document.getElementById('myCanvas');
