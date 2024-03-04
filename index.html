@@ -1,48 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
 <style>
       button {
         display: inline-block;
         background-color: #1d5469;
         font-family:bradley hand;
-        font-size: 30px;
+        font-size: 20px;
         padding: 30px;
         width: 400px;
         color: #ffffff;
         text-align: center;
       }
 </style>
-<meta charset="UTF-8">
-<title>Final Countdown</title>
-</head>
 
-<p style="font-size: 30px; font-family: bradley hand">
-Final Countdown!
-</p>
-
-<body bgcolor= "coral">
-
-<form id="formData" style="font-size: 20px; font-family: bradley hand">
-    <fieldset>
-        <label>Who will win</label><input type="text" name="final"><br>
-        <!-- etc etc etc -->
-    </fieldset>
-</form>
-
-<p></p>
-<button onclick="footBall()">See Who Wins!</button> 
-<p></p>
-
-<div id = "content" style="text-align: center; font-size: 30px; font-family: bradley hand"></div>
-
-
-<script src="./Final.js">
+<body style='background-color:black'>
+<p style="font-family:bradley hand;font-size:40px;color:white;">CHIEFS won again!</p>
+<canvas id='myCanvas' width='1000' height='400'></canvas>
+<button onclick="playSong()">Play the Football Song!  Click Play after it shows!</button>
+<script src="./Fireworks.js" >
 </script>
-
-<p></p>
-	
-
-  
 </body>
 </html>
